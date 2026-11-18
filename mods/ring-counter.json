@@ -1,8 +1,0 @@
-{
- "id": "ring-counter",
- "name": "Счётчик колец",
- "version": "1.0",
- "author": "BlockRush",
- "api": 1,
- "script": "const chip = BR.ui.addChip('Колец: ' + BR.storage.get('total', 0));\nBR.on('checkpoint', function () {\n  const t = BR.storage.get('total', 0) + 1;\n  BR.storage.set('total', t);\n  chip.textContent = 'Колец: ' + t;\n  if (t % 10 === 0) BR.toast('Уже ' + t + ' колец за всё время!');\n});"
-}
