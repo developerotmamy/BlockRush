@@ -1,0 +1,24 @@
+[
+ {
+  "id": "neon-cars",
+  "name": "Неоновые тачки",
+  "author": "BlockRush",
+  "version": "1.0",
+  "type": "data",
+  "desc": "Новая машина «Неон»: низкая, быстрая, с подсветкой",
+  "url": "mods/neon-cars.json",
+  "size": 1619,
+  "sha256": "0ef041559c96f6a8a03c46983a9b4d46c1c75aefe504ed98c8e26ba181fdfc64"
+ },
+ {
+  "id": "ring-counter",
+  "name": "Счётчик колец",
+  "author": "BlockRush",
+  "version": "1.0",
+  "type": "script",
+  "desc": "Считает кольца за всё время (пример кода-мода)",
+  "url": "mods/ring-counter.json",
+  "size": 448,
+  "sha256": "620e87406435d298779fa8819a72ad997a7c3028acac0a14b84ffc29d11976b9"
+ }
+]
